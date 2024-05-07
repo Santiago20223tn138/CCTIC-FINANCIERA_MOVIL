@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.login.MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_financiera" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custome_edit_text"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingHorizontal="20dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custome_edit_text"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingHorizontal="20dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/main"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:cornerRadius="80dp" />
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnFingerprint"
+        android:layout_marginTop="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/icon_fingerprint"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:tint="@color/main"/>
+<!--    <Button-->
+<!--        android:id="@+id/btnFingerprint"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="30dp"-->
+<!--        android:backgroundTint="#00FFFFFF"-->
+<!--        android:text="Ingresar con huella digital"-->
+<!--        android:textColor="@color/main"-->
+<!--        android:textSize="15sp"-->
+<!--        app:cornerRadius="80dp" />-->
+
+</androidx.appcompat.widget.LinearLayoutCompat>

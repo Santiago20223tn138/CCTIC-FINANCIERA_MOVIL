@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FinancieraApp</string>
+    <string name="login">Ingresar</string>
+    <string name="password">Contraseña</string>
+    <string name="email">Correo electrónico</string>
+    <string name="loading">Cargando</string>
+    <string name="logout">Cerrar sesión</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
